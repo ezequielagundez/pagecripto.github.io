@@ -11,7 +11,13 @@ button.addEventListener('click',()=>{
 
 let buttonModal = document.querySelector('.menu-burguer')
 let ModalHeader = document.querySelector('.navbar-modal')
+let buttonX = document.querySelector('.img-x')
+
 
 buttonModal.addEventListener('click',()=>{
     ModalHeader.style.display ='block'
+})
+
+buttonX.addEventListener('click', ()=>{
+    ModalHeader.style.display ='none'
 })

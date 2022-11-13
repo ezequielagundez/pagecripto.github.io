@@ -84,9 +84,16 @@
    }
    &__link{
     padding: 10px;
+    font-size: 20px;
     
    }
     @media (min-width:675px){
         display: none;
     }
+}
+
+.img-x{
+    position: absolute;
+    top: 30px;
+    right: -30px;
 }
