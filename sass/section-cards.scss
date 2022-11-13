@@ -1,7 +1,7 @@
 .cards {
     display: flex;
     justify-content: space-around;
-    @media (max-width: 375px) {
+    @media (max-width: 675px) {
         flex-direction: column;
     }
 }
@@ -24,12 +24,12 @@
         padding: 10px;
         height: 100px;
         margin: 10px;
-        @media (max-width: 375px) {
+        @media (max-width: 675px) {
            font-size: 13px;
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 675px) {
         width: 300px;
         margin-bottom: 20px;
         img{

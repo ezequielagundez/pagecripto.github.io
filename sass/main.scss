@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @media (max-width:375px){
+    @media (max-width:675px){
         flex-direction: column;
         
         
@@ -16,7 +16,7 @@
     font-size: 35px;
     width: 450px;
     margin: 0px;
-    @media (max-width:375px){
+    @media (max-width:675px){
         width: 300px;
         
         font-size: 25px;
@@ -34,7 +34,7 @@
 .image-cripto{
     -webkit-animation: float 4s ease-in-out infinite;
     animation: float 4s ease-in-out infinite;
-    @media (max-width:375px){
+    @media (max-width:675px){
         width: 300px;
         height: 200px;
         font-size: 305px;

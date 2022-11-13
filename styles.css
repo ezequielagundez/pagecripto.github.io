@@ -7,7 +7,7 @@ body {
   width: 1200px;
   margin: auto;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .conteiner {
     width: 300px;
   }
@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   color: white;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .button {
     margin: 10px;
   }
@@ -50,7 +50,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .header {
     width: 250px;
   }
@@ -59,7 +59,7 @@ body {
 .menu-burguer {
   display: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .menu-burguer {
     display: block;
     width: 25px;
@@ -80,7 +80,7 @@ body {
   list-style: none;
   padding: 15px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .navbar__items {
     display: none;
   }
@@ -101,7 +101,7 @@ body {
   color: white;
   font-size: 35px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .logo {
     font-size: 15px;
   }
@@ -129,7 +129,7 @@ body {
 .navbar-modal__link {
   padding: 10px;
 }
-@media (min-width: 375px) {
+@media (min-width: 675px) {
   .navbar-modal {
     display: none;
   }
@@ -141,7 +141,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .main {
     flex-direction: column;
   }
@@ -153,7 +153,7 @@ body {
   width: 450px;
   margin: 0px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .hero-title {
     width: 300px;
     font-size: 25px;
@@ -168,7 +168,7 @@ body {
   -webkit-animation: float 4s ease-in-out infinite;
   animation: float 4s ease-in-out infinite;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .image-cripto {
     width: 300px;
     height: 200px;
@@ -189,7 +189,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .cards {
     flex-direction: column;
   }
@@ -214,12 +214,12 @@ body {
   height: 100px;
   margin: 10px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .card__text {
     font-size: 13px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .card {
     width: 300px;
     margin-bottom: 20px;
@@ -241,7 +241,7 @@ body {
   align-items: center;
   margin-bottom: 100px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .section-nft {
     flex-direction: column;
   }
@@ -269,7 +269,7 @@ body {
   color: white;
   padding: 10px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .section-nft-cont {
     width: 300px;
   }
@@ -300,7 +300,7 @@ body {
   color: white;
   font-size: 35px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .section-cripto {
     display: none;
   }
@@ -374,7 +374,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .section-footer {
     flex-direction: column-reverse;
   }
