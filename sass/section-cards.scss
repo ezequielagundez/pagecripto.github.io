@@ -1,0 +1,40 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 375px) {
+        flex-direction: column;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+    &__title {
+        color: white;
+        margin: 10px;
+    }
+    &__text {
+        color: white;
+        padding: 10px;
+        height: 100px;
+        margin: 10px;
+        @media (max-width: 375px) {
+           font-size: 13px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        width: 300px;
+        margin-bottom: 20px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

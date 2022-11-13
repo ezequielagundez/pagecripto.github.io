@@ -1,0 +1,55 @@
+.section-cripto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+        color: white;
+        font-size: 35px;
+    }
+    @media (max-width:375px){
+       display: none;
+        
+       
+    }
+}
+
+.criptos {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 70px;
+}
+
+.img-cripto {
+    width: 220px;
+    height: 180px;
+}
+
+
+
+.cripto {
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+    a{
+        text-decoration: none;
+    }
+
+    &__text{
+        margin: 5px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.cripto:hover{
+  border: 1px solid rgba(0, 0, 0, 0.234);
+}
