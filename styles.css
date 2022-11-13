@@ -425,5 +425,10 @@ body {
   color: white;
   padding: 10px 0px 2px 0px;
 }
+@media (max-width: 675px) {
+  .copyright {
+    width: 400px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

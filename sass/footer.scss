@@ -76,4 +76,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.311);
     color: white;
     padding: 10px 0px 2px 0px;
+    @media (max-width: 675px) {
+        width: 400px;
+    }
+
 }
